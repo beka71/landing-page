@@ -59,8 +59,10 @@ body{
         display: flex;        
         align-items: center;
         justify-content: center;
+        gap:48px;
+        padding-bottom: 64px;
     }
-        .text{width:140px;
+        .text{width:100px;
         word-wrap: break-word;
         text-align: center;}
         img{width: 100px;
@@ -71,7 +73,13 @@ body{
 .message{
     background: #e5e7eb;
     color: #1f2937;
+    word-wrap: break-word;    
+    padding: 56px 20%;
+    font-size: 32px;
+    font-style: italic;
     }
+    .author{font-weight: bold;
+    text-align: right;}
 .footer{
     background: #1f2937;
     color: #f9faf8;
